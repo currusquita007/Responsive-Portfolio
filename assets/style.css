@@ -358,6 +358,7 @@ footer {
 
 header {
     position: static;
+    width:640px;
 	height: 50px;
 	background-color: #E0E0E0;
 
@@ -367,12 +368,13 @@ h1 {
     float: left;
     width: 640px;
     height: 40px;
-    text-align: center;
-
+    font-size: 30px;
+    padding-left: 10px;
+    margin-left: 0px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 22px;
     padding-bottom: 10px;
     font-family: Arial;
     padding-left: 25px;
@@ -382,28 +384,31 @@ h2 {
 
 #bioImage {
 	float: left;
-	clear:left;
-    width: 400px;
-    height: 400px;
-    float: left;
+	
+    width: 520px;
+    height: 520px;
     margin: 20px 20px 20px 20px;
+    box-sizing: border-box;
 }
 
 #biotex{
-
+    float: left;
+    clear: left;
 	font-size: 18px;
-	width: 400px;
-    padding:10px 10px 10px 10px;
+	width: 540px;
+    padding:20px 30px 20px 30px;
     font-family: Arial;
+    box-sizing: border-box;
 
 }
 
 #main-bio {
     position: relative;
     float: left;
-    width: 640px;
+    font-size: 20px;
+    width: 600px;
     margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 20px 20px 20px;
     background-color: #E0E0E0;
     color: #333333;
     box-sizing: border-box;
@@ -412,7 +417,7 @@ h2 {
 
  #navigation{
  	float: left;
-    width: 640px;
+    width: 600px;
     height: 40px;
     text-align: center;
 	
@@ -421,21 +426,22 @@ h2 {
 .aboutNav {
     text-decoration: none;
     float: left;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    color: #333333;
-    padding-right: 10px;
+    color: white;
+    padding-right: 120px;
     padding-top: 15px;
+    padding-left: 60px;
     font-family: Arial;
 }
 
 .portfolioNav {
     text-decoration: none;
     float: left;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    color: #333333;
-    padding-right: 10px;
+    color: white;
+    padding-right: 120px;
     padding-top: 15px;
     font-family: Arial;
 }
@@ -443,9 +449,9 @@ h2 {
 .contactNav {
     text-decoration: none;
     float: left;
-    font-size: 20px;
+    font-size: 24px;
     text-align: center;
-    color: #333333;
+    color: white;
     padding-right: 10px;
     padding-top: 15px;
     font-family: Arial;
