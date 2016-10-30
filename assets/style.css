@@ -116,7 +116,7 @@ a {
 	margin-top: 30px;
 	margin-left: 140px;
 	margin-right: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 60px;
 	padding-left:20px;
 	padding-right:20px;
 	padding-bottom:20px;
@@ -162,7 +162,7 @@ a {
 	line-height:150%;
 	padding: 20px 20px 30px 20px;
 	background-color: #E0E0E0;
-	margin-top:30px;
+    margin: 10px 10px 60px 10px;
 	font-family: Arial;
 	box-sizing: border-box;
 }
@@ -272,7 +272,7 @@ img {
     margin-right: 20px;
 }
 
-.biotex{
+#biotext{
 	font-size: 20px;
     padding:10px 10px 10px 10px;
     font-family: Arial;
@@ -285,7 +285,7 @@ img {
     font-size: 20px;
     text-align: center;
     color: #333333;
-    padding-left: 180px;
+    padding-left: 160px;
     padding-right: 10px;
     padding-top: 15px;
     font-family: Arial;
@@ -314,19 +314,19 @@ img {
 }
 #contact-info {
     float: left;
-    width: 738px;
+    width: 690px;
     height: 120px;
     line-height: 150%;
     padding: 10px 20px 30px 20px;
     background-color: #E0E0E0;
-    margin: 15px 15px 15px 15px;
+    margin: 10px 15px 60px 15px;
     font-family: Arial;
     box-sizing: border-box;
 }
 #main-bio {
     position: relative;
     float: left;
-    width: 738px;
+    width: 690px;
     margin-top: 30px;
     margin-left: 15px;
     margin-right: 15px;
@@ -336,6 +336,32 @@ img {
 
     box-sizing: border-box;
 
+}
+
+#nameContact{
+/*  float:left;*/
+    width:645px;
+    height:20px;
+    margin:5px 15px 15px 0px;
+    font-family: Arial;
+}
+
+#emailContact{
+    /*float:left;*/
+    width:645px;
+    height:20px;
+    margin:0px 15px 15px 0px;
+    font-family: Arial;
+    
+}
+
+
+#mesageContact{
+    /*float:left;*/
+    width:645px;
+    height:250px;
+    margin:0px 15px 15px 0px;
+    font-family: Arial;
 }
 
 
@@ -383,16 +409,16 @@ h2 {
 
 
 #bioImage {
-	float: left;
-	
-    width: 520px;
-    height: 520px;
+    float: left;
+    width: 420px;
+    height: 420px;
     margin: 20px 20px 20px 20px;
-    box-sizing: border-box;
+    padding: 10px 25px 5px 40px;
+  
 }
 
-#biotex{
-    float: left;
+#biotext{
+   
     clear: left;
 	font-size: 18px;
 	width: 540px;
@@ -407,7 +433,7 @@ h2 {
     float: left;
     font-size: 20px;
     width: 600px;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 15px;
     padding: 20px 20px 20px 20px;
     background-color: #E0E0E0;
     color: #333333;
@@ -458,12 +484,12 @@ h2 {
 }
 #contact-info {
     float: left;
-    width: 640px;
+    width: 600px;
     height: 120px;
     line-height: 150%;
     padding: 10px 10px 10px 10px;
     background-color: #E0E0E0;
-    margin: 10px 10px 10px 10px;
+    margin: 10px 10px 60px 15px;
     font-family: Arial;
     box-sizing: border-box;
 }
@@ -495,8 +521,56 @@ h2 {
 	margin:0px 5px 0px 0px;
 }
 
+.imagesPortfolio {
+    width: 520px;
+    height: 380px;
+}
 
-footer {
+
+
+.pictureHolderPortfolio {
+    position: relative;
+    float: left;
+    width: 520px;
+    height: 380px;
+    padding: 5px 15px 10px 15px;
+}
+
+.imagePortfolioLabel {
+
+    width: 520px;
+    margin-top: 320px;
+
+}
+
+#nameContact{
+    width: 550px;
+    height: 20px;
+    margin: 5px 15px 15px 2px;
+    font-family: Arial;
+}
+
+#emailContact{
+    width: 550px;
+    height: 20px;
+    margin: 5px 15px 15px 2px;
+    font-family: Arial;
+	
+}
+
+
+#mesageContact{
+	width:550px;
+	height:250px;
+	margin:5px 15px 15px 2px;
+	font-family: Arial;
+}
+
+
+
+
+footer{
+	clear:both;
     position: fixed;
     bottom: 0px;
     color: #FFCCBC;
@@ -508,6 +582,6 @@ footer {
     border-top: 5px solid #FFCCBC;
 }
 
-}
+
 
 
